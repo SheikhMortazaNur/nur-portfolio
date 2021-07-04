@@ -10,16 +10,17 @@ h1{ font-size: 155%}
     font-size: 200%;
     color: goldenrod;
 }
-section{
+.flexible-container{
     display: flex;
     padding-right: 07%;
+    width: 80%;
     
 }
 .first-section{
     width: 50%;
-    padding-left: 1in;
-    margin-right: 50px;
-    padding-right: 2in;    
+    padding-left: 2%;
+    margin-right: 10%;
+    padding-right: 4%;    
 }
 h3{
     color: darkslategrey;
@@ -39,4 +40,27 @@ h3{
     background-image:url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience-item{
+    border-radius: 10px;
+    width: 40%;
+    margin: 5%;
+    box-shadow: 10px 10px 40px darkcyan;
+    padding-left: 4%;
+    border-left: solid rgb(14, 50, 51);
+}
+.experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#lulu{
+    box-shadow: 10px 10px 40px rgb(70, 99, 180);
+    padding-left: 4%;
+    border-left: solid rgb(187, 81, 67);
+}
+footer p { text-align:center;
+    font-size:smaller;
+    font-style: italic;
+
 }
