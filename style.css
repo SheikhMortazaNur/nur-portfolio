@@ -13,10 +13,13 @@ h1{ font-size: 155%}
 section{
     display: flex;
     padding-right: 07%;
+    
 }
 .first-section{
     width: 50%;
     padding-left: 1in;
+    margin-right: 50px;
+    padding-right: 2in;    
 }
 h3{
     color: darkslategrey;
@@ -31,4 +34,9 @@ h3{
 .top{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.second-part{
+    background-image:url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
